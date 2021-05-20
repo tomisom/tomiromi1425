@@ -1,0 +1,29 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.server.launchMode": "Standard",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "bin/": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/*~": true
+  },
+  "wpilib.skipSelectSimulateExtension": true,
+  
+  // start bash, not the mintty, or you'll get a new window
+  "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
+  // Use this to keep bash from doing a 'cd ${HOME}'
+  "terminal.integrated.env.windows": {
+    "CHERE_INVOKING": "1"
+  },
+  // Make it a login shell
+  "terminal.integrated.shellArgs.windows": [
+    "-l"
+  ],
+}
